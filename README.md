@@ -34,14 +34,11 @@ Machine learning framework for predicting 30-day hospital readmission in diabeti
 git clone https://github.com/dani-loya/Diabetes-Readmission-ML-DL-Framework.git
 ```
 
-1. Open the [Colab notebook](https://colab.research.google.com/drive/1RJ00G_pOc0XxV-j_q0k2_nmc0q4LJpXF?usp=sharing)
+1. Open the [Colab notebook] in this repository (https://colab.research.google.com/drive/1RJ00G_pOc0XxV-j_q0k2_nmc0q4LJpXF?usp=sharing)
 2. Upload `diabetic_data.csv`
 3. Run all cells to reproduce preprocessing, modeling, and evaluation
 
 ## Video 
-<img width="1536" height="1024" alt="Copilot_20260811_091321" src="https://github.com/user-attachments/assets/3e716443-d0c4-4e26-908c-948d176b8b99" />
-<img width="1536" height="1024" alt="Copilot_20260811_091321" src="https://github.com/user-attachments/assets/5c15b782-f201-4ddd-aeab-55705409ce46" />
-
 
 https://github.com/user-attachments/assets/d6134062-8b6c-462a-8023-b30482a684a5
 
