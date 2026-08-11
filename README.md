@@ -5,11 +5,6 @@ Machine learning framework for predicting 30-day hospital readmission in diabeti
 <img width="720" alt="Model performance" src="https://github.com/user-attachments/assets/cdd00770-14e8-4968-bf59-6bcb74d65e56" />
 
 
-
-
-
-<img width="1536" height="1024" alt="Copilot_20260811_091321" src="https://github.com/user-attachments/assets/e43d1c01-e1f7-4a1f-8163-366c6ba87710" />
-
 ## Overview
 
 30-day readmissions are a major clinical and financial burden for diabetic patients. This pipeline flags high-risk patients before discharge so clinicians can act early — follow-ups, medication reviews, personalized discharge plans — with a focus on maximizing recall for the minority (readmitted) class.
