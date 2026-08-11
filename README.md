@@ -1,21 +1,28 @@
 # Predicting 30-Day Hospital Readmissions in Diabetic Patients
 
-Machine learning framework for predicting 30-day hospital readmission in diabetic patients, enabling early clinical intervention.
+The purpose is to apply machine learning framework for predicting 30-day hospital readmission in diabetic patients 
+
+because early clinical intervention will likely prevent readmission within 30 days.
 
 <img width="720" alt="Model performance" src="https://github.com/user-attachments/assets/cdd00770-14e8-4968-bf59-6bcb74d65e56" />
 
 
 ## Overview
 
-30-day readmissions are a major clinical and financial burden for diabetic patients. This pipeline flags high-risk patients before discharge so clinicians can act early — follow-ups, medication reviews, personalized discharge plans — with a focus on maximizing recall for the minority (readmitted) class.
+30-day readmissions are one of the costliest and most preventable outcomes in diabetes care. By building this pipeline to predict readmission risk, it will provide an alert before discharging a patient; giving clinicians a critical window to intervene with follow-ups, medication reviews, or personalized care plans. To be able to predict the minority class, the models are optimized for recall on the minority (readmitted) class rather than overall accuracy. At the end is more valuable and less expensive to NOT miss a high-risk patient than raising a false alarm.
 
 ## Dataset
 
 **UCI Diabetes 130-US Hospitals (1999–2008)**
-- 101,766 encounters, 50 raw → 136 engineered features
-- Target: `<30 days` → 1, `>30 or no readmission` → 0
+- 101,766 encounters
+- 50 raw features → 136 engineered features ( 50 raw + 86 engineered features)
+- Target variable converted into binary classification: three categories readmitted within 30 days, readmitted after 30 days and never readmitted.
+
+  `<30 days` → 1, `>30 or no readmission` → 0
 
 ## Preprocessing
+
+Handling Missing Data
 
 - Missingness indicators for sparse labs (A1C, glucose serum); dropped extremely sparse columns; median imputation
 - Numeric midpoints for age/weight ranges; numeric diagnosis codes
@@ -41,8 +48,6 @@ git clone https://github.com/dani-loya/Diabetes-Readmission-ML-DL-Framework.git
 ## Video 
 
 https://github.com/user-attachments/assets/d6134062-8b6c-462a-8023-b30482a684a5
-
-
 
 ## Future Work
 
